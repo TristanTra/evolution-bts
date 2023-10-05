@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'cybertitre';
+    src: url('fonts/Sdglitchrobotdemo-GOPdO.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+@font-face {
+    font-family: 'cyberbuttun';
+    src: url('fonts/ChakraPetch-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;    
+}
+
+body
+{
+    background: url("https://images6.alphacoders.com/939/939537.jpg") no-repeat fixed;
+    color: white;
+    padding: 0px;
+    padding-right: 0%;
+}
+ul
+{
+    list-style-type: none;
+}
+
+ul li
+{
+    text-align: center;
+    padding-bottom: 1em;
+}
+ul li form
+{
+    padding-bottom: 0.2em;
+    font-size: 1.3em;
+    font-family: monospace;
+}
+h1
+{
+    text-align: center;
+    padding-bottom: 0.01em;
+    font-size: 5em;
+    font-family: 'cybertitre', sans-serif;
+}
+button
+{
+    font-size: 3em;
+    border: 5px rgb(87, 10, 90) outset;
+    border-radius: 10px;
+    font-family: 'cyberbuttun';
+}
